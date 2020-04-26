@@ -1,0 +1,18 @@
+4个.m代码文件
+p1.m:
+	Code to solve Problem 1：打印“均值脸”
+p2_p3.m：
+	Code to solve Problem 2：保留40个“特征脸”并打印前15个
+	Code to solve Problem 3：20张图片作为测试集进行重构
+imgvec2mat.m：
+	图片向量形式转矩阵形式的函数
+	输入：图片的列向量形式
+	输出：图片的矩阵形式
+Reconstruction.m:
+	重建函数 
+	输入：测试集图片矩阵、训练集均值、主成分 输出：重建后的矩阵
+	att_faces文件夹：老师/助教提供的实验用的图像数据
+3张.bmp图片：
+	平均脸.bmp（Problem1）
+	前15个特征脸（略吓人）.bmp
+	20张重建对比.bmp
